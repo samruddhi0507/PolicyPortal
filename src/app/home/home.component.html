@@ -1,1 +1,147 @@
-<p>home works!</p>
+<section class="home">
+    <section class="Policy By SR Insurance" id="home">
+      <div class="container">
+        <div class="section-title-latest">
+          <h1><i class="icofont icofont-history"></i>Available Policies</h1>
+        </div>
+        <div class ="swiper">
+          <div class="swiper-wapper">
+            <div class="swiper-slide"><img scr="src/assets/HomeImage/1" alt="Term Life Insurance"></div>
+            <div class="swiper-slide"><img scr="src/assets/HomeImage/2" alt="Health Insurance"></div>
+            <div class="swiper-slide"><img scr="src/assets/HomeImage/3" alt="Car Insurance"></div>
+            <div class="swiper-slide"><img scr="src/assets/HomeImage/4" alt="Home Insurance"></div>
+
+          </div>
+          <div class ="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+  
+        <!-- <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol> -->
+          <!-- <div class="carousel-inner">
+            <div
+              class="carousel-item"
+              *ngFor="let movie of movies; let i = index"
+              [ngClass]="{ active: i == 0 }"
+            >
+              <div class="latest-movies-slider">
+                <div class="row latest-movies-slide">
+                  <div class="col-lg-6 col-md-5">
+                    <div class="movies-img">
+                      <img
+                        src="assets/img/portfolio{{ i }}.png" height="450px" width="400px"
+                        alt="No image Uploaded"
+                      />
+                      <a [routerLink]="['view', movie.movieId]"></a>
+                    </div>
+                 
+                  </div> -->
+                  <!-- <div class="details col-lg-6 col-md-7">
+                    <div class="latest-movies-content">
+                      <h2>
+                        <strong>{{ movie.movieName }} </strong>
+                      </h2>
+                      <p>
+                        <i>{{ movie.movieGenre }}</i>
+                      </p>
+                      <p>Language - {{ movie.movieLanguage }}</p>
+                      <p>
+                        Description -
+                        {{ movie.movieDescription }}
+                      </p>
+                      <div class="Buy Insurance">
+                        <h3>Buy Insurance</h3>
+                        <a
+                          class="theme-btn"
+                          [routerLink]="['/movie/view', movie.movieId]"
+                          ><i class="icofont icofont-ticket"></i> Book
+                        </a> -->
+                      <!-- </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <div class="nav-link">
+      <section id="aboutus">
+          <div class="description mt-4">
+            <div class="mx-4">
+              <h1 class="fs-2">ABOUT US</h1>
+              <div class="underline text-warning"></div>
+            </div>
+            
+            <p>We are SRI an Indian Insurance Company Inc, (SR Insurance), a leading global insurance organization 
+              providing a wide range of property casualty insurance and other financial services. 
+              We offer world-class products and expertise to businesses and individuals in approximately 70 countries 
+              and jurisdictions. And we are committed to using our insights and thought leadership to not only manage risks, 
+              but to make real positive differences in every community we serve.</p>
+          </div>
+          <div class="branches mt-4 py-5">
+            <div class="mx-4">
+              <h1 class="fs-2">Our Branches</h1>
+              
+              <div class="underline"></div>
+              <p>SR Insurance</p><br>
+              <p>Nagpur,India || Manager Name: Samruddhi || Contact: 7782872199</p><br>
+              <p>Pune,India || Manager Name: Ruchita || Contact: 6384223700</p><br>
+             
+            </div>
+          </div>
+          <span> 
+            <section id="contactus">
+              <div class="mx-4">
+                <h1 class="fs-2">CONTACT US</h1>
+                <div class="underline text-warning"></div>
+              </div>
+              <div class="card col-md-5">
+                  <input name="name" type="text" class="card" placeholder="Name" /><br> 
+                  <input name="email" type="text" class="card" placeholder="Email" /><br>
+                  <textarea name="text" class="card" placeholder="Comment"></textarea><br>
+                  <input type="submit" value="SUBMIT"/><br>
+                </div>
+              </section>
+          </span>
+   
+  </section>
+  <footer class="background">
+    <p class="text-footer">
+        Copyright ©-All rights are reserved by SRI
+    </p>
+  </footer>
+  <router-outlet></router-outlet>
+  
